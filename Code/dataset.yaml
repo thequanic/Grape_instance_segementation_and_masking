@@ -1,0 +1,9 @@
+path: ../../PreprocessedDataset/YOLODS/
+train: Train/images
+test: Testing/images
+val: Validation/images
+new: Testing/images
+
+
+names:
+  0: Grapes
