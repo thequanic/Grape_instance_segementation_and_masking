@@ -1,18 +1,38 @@
+#mask RCNN pre-trained weights
 mask_rcnn_coco.h5
+
+#Yolo v8 pre-trained model
 Code/yolov8n-seg.pt
 Code/yolov8x-seg.pt
+
+#cache
 Code/__pycache__
 Code/mrcnn/__pycache__
-Segmentated_Images
+WebPortal/__pycache__
+
+#original data set
 data
-PreprocessedDataset
-MRCNNTrainingLogs/MRCNNTrainedWeights
-MRCNNTrainingLogs/MRCNNTrainedWeights_ALL.zip
-YoloTrainingLogs/resultx-2/weights
-.git2
 data.zip
+
+#preprocessed and structured dataset
+PreprocessedDataset
 PreprocessedDataset.zip
-MRCNNTrainingLogs/MRCNNTrainedWeights.zip
+
+#Segmented output images 
+Segmentated_Images
 Segmentated_Images.zip
-WebPortal/__pycache__/Paths.cpython-311.pyc
+
+#Mask RCNN trained weights last
+MRCNNTrainingLogs/MRCNNTrainedWeights
+MRCNNTrainingLogs/MRCNNTrainedWeights.zip
+
+#Mask RCNN trained weights all start to end
+MRCNNTrainingLogs/MRCNNTrainedWeights_ALL.zip
+
+#YOLO V8 trained weights 
+YoloTrainingLogs/resultx-2/weights
 YoloTrainingLogs/resultx-2/weights.zip
+YoloTrainingLogs/resultx-2/weights_only_lastest.zip
+
+
+
